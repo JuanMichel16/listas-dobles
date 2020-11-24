@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Gestor de almacen listas dobles</h1>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>Agregar nuevo articulo</h2>
+        </div>
+        <div>
+            <label for="codigo">Código del artículo:</label>
+            <input id="codigo" type="text">
+        </div>
+        <div>
+            <label for="nombre">Nombre del artículo:</label>
+            <input id="nombre" type="text">
+        </div>
+        <div>
+            <label for="descripcion">Descipcion del artículo:</label>
+            <input id="descripcion" type="text">
+        </div>
+        <div>
+            <label for="cantidad">Cantidad del artículo:</label>
+            <input id="cantidad" type="text">
+        </div>
+        <div>
+            <label for="costo">Costo del artículo:</label>
+            <input id="costo" type="text">
+        </div>
+
+        <button id="btn1">Agregar nuevo producto</button>
+    </div>
+    <div class="container">
+        <div>
+            <h2>Borrar articulo</h2>
+        </div>
+        <div>
+            <label for="articuloborrar">Código del artículo:</label>
+            <input id="articuloborrar" type="text">
+        </div>
+
+        <button id="btn3">Borrar producto</button>
+        <button id="btn4">Borrar producto inicial</button>
+    </div>
+    <div class="container">
+        <div>
+            <h2>Buscar Producto</h2>
+        </div>
+        <div>
+            <label for="articulobuscar">Código del artículo:</label>
+            <input id="articulobuscar" type="text">
+        </div>
+
+        <button id="btn5">Buscar producto</button>
+    </div>
+    <div>
+        <div>
+            <h2>Listar productos</h2>
+        </div>
+
+        <button id="btn6">Listar productos</button>
+        <button id="btn7">Listar productos inversamente</button>
+
+        <div>
+            <ul id="listadoProductos"></ul>
+        </div>
+    </div>
+</body>
+<script src="app.js" type="module"></script>
+</html>
